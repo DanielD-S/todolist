@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado Tareas</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="icon" href="./Assets/Img/favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="tamano">
+        <div>
+            <h1>Todo List</h1>
+            <hr>
+        </div>
+        <h4>Nueva Tarea</h4>
+        <div class="">
+            
+            <input  id="nombreTarea" class="input" type="text" placeholder="Ingresar Tareas a Realizar">
+            <button type="button" id="agregarTarea" class="boton">Agregar</button>
+        </div>
+        <div  class="flex">
+            <div class="inicio">
+                <span>Total <span id="totalTareas"></span> </span>
+                <span>Realizadas:<span id="tareasRealizadas"></span></span>
+            </div>
+            <div class="fin">
+                    <span><b>ID</b>
+                        <p id="listaid"> </p></span>
+                    <span class="finpad"><b>Tarea</b>
+                        <p id="listaTarea"> </p>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <script src="./Assets/Js/script.js"></script>
+</body>
+</html>

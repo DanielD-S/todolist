@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.fin{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+   
+}
+
+.finpad{
+    padding-left: 10px;
+}
+
+.tamano{
+    width: 80%;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+}
+
+.input{
+    width: 90%;
+}
+
+
+.arrow{
+    display: flex;
+}
+
+.boton{
+    background-color: rgb(35, 151, 35);
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+}
